@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_mz7eAEMKEeSSv-GCVFD3dg" elementId="org.eclipse.e4.application" bindingContexts="_mz628EMKEeSSv-GCVFD3dg">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_9LCC4EMKEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.trimmedwindow.0" label="%trimmedwindow.label.1" x="30" y="30" width="800" height="600">
+    <persistedState key="efx.window.root.fxml" value="platform:/plugin/at.bestsolution.e4.viewer.app/at/bestsolution/e4/viewer/app/ApplicationDecoration.fxml"/>
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_A2lHkEMLEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.perspectivestack.0"/>
+    <mainMenu xmi:id="_hY25cEMrEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_pW9_gEMrEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.menu.1" label="%menu.label.1">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_1Xg_cENbEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.handledmenuitem.0" label="%handledmenuitem.label.1" command="_sH2ywEMrEeSSv-GCVFD3dg"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_Cmn_cEPoEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.menu.2" label="%menu.label.2">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_EDGkgEPoEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.handledmenuitem.1" label="%handledmenuitem.label.2" command="_faRmcEPnEeSSv-GCVFD3dg">
+          <parameters xmi:id="_F9EW0EPoEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.parameter.0" name="parameter.theme.switch" value="default"/>
+        </children>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_PBeWkEPoEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.handledmenuitem.2" label="%handledmenuitem.label.3" command="_faRmcEPnEeSSv-GCVFD3dg">
+          <parameters xmi:id="_Ri-qAEPoEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.parameter.1" name="parameter.theme.switch" value="dark"/>
+        </children>
+      </children>
+    </mainMenu>
+  </children>
+  <handlers xmi:id="_vZ0R8ENbEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.handler.0" contributionURI="bundleclass://at.bestsolution.e4.viewer.ui/at.bestsolution.e4.viewer.ui.handler.OpenModelHandler" command="_sH2ywEMrEeSSv-GCVFD3dg"/>
+  <handlers xmi:id="_71XHAEPnEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.handler.1" contributionURI="bundleclass://at.bestsolution.e4.viewer.app/at.bestsolution.e4.viewer.app.ThemeSwitch" command="_faRmcEPnEeSSv-GCVFD3dg"/>
+  <handlers xmi:id="_Uab28EP2EeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.handler.2" contributionURI="bundleclass://at.bestsolution.e4.viewer.app/at.bestsolution.e4.viewer.app.SwitchPerspective" command="_MSL9cEP2EeSSv-GCVFD3dg"/>
+  <rootContext xmi:id="_mz628EMKEeSSv-GCVFD3dg" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_mz7eAUMKEeSSv-GCVFD3dg" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_mz7eAkMKEeSSv-GCVFD3dg" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_sH2ywEMrEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.command.openModel" commandName="%command.commandname.1"/>
+  <commands xmi:id="_faRmcEPnEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.command.switchtheme" commandName="%command.commandname.2">
+    <parameters xmi:id="_mYvNYEPnEeSSv-GCVFD3dg" elementId="parameter.theme.switch" name="Theme"/>
+  </commands>
+  <commands xmi:id="_MSL9cEP2EeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.command.switchperspective" commandName="Switch Perspective">
+    <parameters xmi:id="_O7jMYEP2EeSSv-GCVFD3dg" elementId="parameter.switch.perspective" name="Switch perspective"/>
+  </commands>
+  <addons xmi:id="_mz7eA0MKEeSSv-GCVFD3dg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_mz7eBEMKEeSSv-GCVFD3dg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_mz7eBUMKEeSSv-GCVFD3dg" elementId="org.eclipse.fx.ui.keybindings.e4.service" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingServiceAddon"/>
+  <addons xmi:id="_mz7eBkMKEeSSv-GCVFD3dg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_mz7eB0MKEeSSv-GCVFD3dg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_mz7eCEMKEeSSv-GCVFD3dg" elementId="org.eclipse.fx.ui.keybindings.e4.model" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingProcessingAddon"/>
+  <addons xmi:id="_mz7eCUMKEeSSv-GCVFD3dg" elementId="org.eclipse.e4.ui.workbench.addons.HandlerProcessingAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>

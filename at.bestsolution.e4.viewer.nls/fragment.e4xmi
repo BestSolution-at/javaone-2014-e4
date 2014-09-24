@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_TtfiIEPaEeSSv-GCVFD3dg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_TtfiIUPaEeSSv-GCVFD3dg" featurename="commands" parentElementId="org.eclipse.e4.application">
+    <elements xsi:type="commands:Command" xmi:id="_TtfiIkPaEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.command.changelang" commandName="%command.commandname.1">
+      <parameters xmi:id="_TtfiI0PaEeSSv-GCVFD3dg" elementId="parameter.changelanguage.language" name="Language"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_WgrbcEPaEeSSv-GCVFD3dg" featurename="handlers" parentElementId="org.eclipse.e4.application">
+    <elements xsi:type="commands:Handler" xmi:id="_fI2yMEPaEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.nls.handler.0" contributionURI="bundleclass://at.bestsolution.e4.viewer.nls/at.bestsolution.e4.viewer.nls.FlipLanguage" command="_TtfiIkPaEeSSv-GCVFD3dg"/>
+  </fragments>
+</fragment:ModelFragments>

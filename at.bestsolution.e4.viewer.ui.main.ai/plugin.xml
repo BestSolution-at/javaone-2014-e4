@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="at.bestsolution.e4.viewer.ui.main.ai.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
+   <extension
+         point="org.eclipse.fx.ui.theme">
+      <stylesheet
+            resource="platform:/plugin/at.bestsolution.e4.viewer.ui.main/css/theme.css"
+            themeId="default">
+      </stylesheet>
+      <stylesheet
+            resource="platform:/plugin/at.bestsolution.e4.viewer.ui.main/css/theme.css"
+            themeId="dark">
+      </stylesheet>
+   </extension>
+
+</plugin>

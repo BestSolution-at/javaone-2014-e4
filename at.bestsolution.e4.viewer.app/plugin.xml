@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+<extension id="product" point="org.eclipse.core.runtime.products">
+	<product name="TutorialViewer" application="org.eclipse.fx.ui.workbench.fx.application" >
+		<property name="appName" value="TutorialViewer" />
+		
+		<property name="applicationXMI" value="at.bestsolution.e4.viewer.app/Application.e4xmi" />
+		
+		<property name="cssTheme" value="default" />
+		
+	</product>
+	
+</extension>
+<extension  point="org.eclipse.fx.ui.theme">
+	<theme id="default" basestylesheet="css/default.css" />
+ <theme
+       basestylesheet="css/dark.css"
+       id="dark">
+ </theme>
+	
+</extension>
+</plugin>

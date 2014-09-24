@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.transform.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml/1">
+<Group id="Brick_2_2_2_light_green">
+	<Box width="31.6" depth="31.6" height="19.2">
+		<material>
+			<PhongMaterial diffuseColor="rgb(154, 205, 50)
+			"/>
+		</material>
+		<transforms>
+							<Translate x="15.8" y="-9.6" z="15.8" />
+							<Translate x="-7.8" z="-7.8" />
+		</transforms>
+	</Box>
+	<Cylinder radius="4.8" height="3.4">
+		<material>
+			<PhongMaterial diffuseColor="rgb(154, 205, 50)
+			"/>
+		</material>
+		<transforms>
+			<Translate x="7.8" y="-20.9" z="7.8" />
+									<Translate x="-7.8" z="-7.8" />
+		</transforms>
+	</Cylinder>
+	<Cylinder radius="4.8" height="3.4">
+		<material>
+			<PhongMaterial diffuseColor="rgb(154, 205, 50)
+			"/>
+		</material>
+		<transforms>
+			<Translate x="7.8" y="-20.9" z="23.8" />
+									<Translate x="-7.8" z="-7.8" />
+		</transforms>
+	</Cylinder>
+	<Cylinder radius="4.8" height="3.4">
+		<material>
+			<PhongMaterial diffuseColor="rgb(154, 205, 50)
+			"/>
+		</material>
+		<transforms>
+			<Translate x="23.8" y="-20.9" z="7.8" />
+									<Translate x="-7.8" z="-7.8" />
+		</transforms>
+	</Cylinder>
+	<Cylinder radius="4.8" height="3.4">
+		<material>
+			<PhongMaterial diffuseColor="rgb(154, 205, 50)
+			"/>
+		</material>
+		<transforms>
+			<Translate x="23.8" y="-20.9" z="23.8" />
+									<Translate x="-7.8" z="-7.8" />
+		</transforms>
+	</Cylinder>
+</Group>
+</Group>

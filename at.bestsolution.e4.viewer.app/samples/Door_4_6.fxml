@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.transform.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml/1">
+</Group>

@@ -1,0 +1,19 @@
+.button.zoomIn {
+	-fx-graphic: url("icons/zoom-in.png"); 
+}
+
+.button.zoomOut {
+	-fx-graphic: url("icons/zoom-out.png"); 
+}
+
+.button.zoomReset {
+	-fx-graphic: url("icons/zoom-original.png"); 
+}
+
+.toggle-button.rotate {
+	-fx-graphic: url("icons/rotate-start.png");
+}
+
+.toggle-button.rotate:selected {
+	-fx-graphic: url("icons/rotate-pause.png");
+}

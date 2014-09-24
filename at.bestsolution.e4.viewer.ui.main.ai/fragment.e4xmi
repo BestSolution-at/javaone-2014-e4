@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_IAQDgEMMEeSSv-GCVFD3dg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_IAQDgUMMEeSSv-GCVFD3dg" featurename="children" parentElementId="at.bestsolution.e4.viewer.app.perspectivestack.0" positionInList="first">
+    <elements xsi:type="advanced:Perspective" xmi:id="_IAQDgkMMEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.perspective.main" label="%perspective.label.1">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_IAQDg0MMEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.partsashcontainer.0" horizontal="true">
+        <children xsi:type="basic:PartStack" xmi:id="_IAQDhEMMEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.partstack.0" containerData="30">
+          <children xsi:type="basic:Part" xmi:id="_IAQDhUMMEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.part.0" contributionURI="bundleclass://at.bestsolution.e4.viewer.ui.main/at.bestsolution.e4.viewer.ui.main.ModelList" label="%part.label.1"/>
+        </children>
+        <children xsi:type="basic:PartStack" xmi:id="_IAQDhkMMEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.partstack.1" containerData="70">
+          <children xsi:type="basic:Part" xmi:id="_IAQDh0MMEeSSv-GCVFD3dg" elementId="at.bestsolution.e4.viewer.app.part.1" contributionURI="bundleclass://at.bestsolution.e4.viewer.ui.main/at.bestsolution.e4.viewer.ui.main.ModelViewer" label="%part.label.2"/>
+        </children>
+      </children>
+      <variables>modelResource</variables>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

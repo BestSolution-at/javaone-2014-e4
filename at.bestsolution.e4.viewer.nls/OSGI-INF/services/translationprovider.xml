@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="at.bestsolution.e4.viewer.nls.translationprovider">
+   <implementation class="at.bestsolution.e4.viewer.nls.CustomTranslationProvider"/>
+   <property name="service.ranking" type="Integer" value="1"/>
+   <service>
+      <provide interface="org.eclipse.e4.core.services.translation.ResourceBundleProvider"/>
+   </service>
+   <reference bind="setBundleLocalization" cardinality="1..1" interface="org.eclipse.osgi.service.localization.BundleLocalization" name="BundleLocalization" policy="static"/>
+   <reference bind="setTranslationService" cardinality="1..1" interface="at.bestsolution.di.services.TranslationService" name="TranslationService" policy="static"/>
+</scr:component>
